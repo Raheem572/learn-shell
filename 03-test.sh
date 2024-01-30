@@ -2,3 +2,4 @@
 
 echo "please enter username:"
 
+read username:
