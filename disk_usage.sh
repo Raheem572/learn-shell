@@ -15,6 +15,5 @@ DISK_USAGE_THRESHOLD=1
 
 while IFS= read line
 do
-    usage=$(echo $line | awk '{print $6}' | cut -d % -f1)
-
+    echo "output: $line"
 done <<< $DISK_USAGE
