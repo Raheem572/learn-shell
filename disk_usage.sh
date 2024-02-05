@@ -24,3 +24,5 @@ do
 done <<< $DISK_USAGE
 
 echo -e "message: $message"
+
+echo "$message" | mail -s "HIGH DISK USSAGE" raheembasha1993@gmail.com
